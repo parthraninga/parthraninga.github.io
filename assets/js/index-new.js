@@ -384,12 +384,12 @@ function initPageTransitions() {
     initCookieViews();
   });
 
-  if ($(window).width() > 540) { 
-    barba.hooks.leave(() => {
-      $(".btn-hamburger, .btn-menu").removeClass('active');
-      $("main").removeClass('nav-active');
-    }); 
-  }
+//  if ($(window).width() > 540) { 
+  //  barba.hooks.leave(() => {
+//      $(".btn-hamburger, .btn-menu").removeClass('active');
+ //     $("main").removeClass('nav-active');
+//    }); 
+//  }
   
 
   barba.init({
